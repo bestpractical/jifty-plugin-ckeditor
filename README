@@ -1,0 +1,17 @@
+NAME
+    Jifty::Plugin::CKEditor - ckeditor for Jifty textarea
+
+SYNOPSIS
+    In etc/config.yml
+
+       Plugins:
+         - CKEditor: {}
+
+    In your Model instead of
+
+       render_as 'teaxterea';
+
+    use
+
+      render_as 'Jifty::Plugin::CKEditor::Textarea';
+
